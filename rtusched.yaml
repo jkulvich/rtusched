@@ -1,0 +1,5 @@
+site: https://www.mirea.ru/education/schedule-main/schedule/
+log:
+  level: warn
+  format: text
+  callerInfo: false
