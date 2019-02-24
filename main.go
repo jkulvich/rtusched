@@ -7,6 +7,7 @@ import (
 	"os"
 	"rtusched/config"
 	"rtusched/logger"
+	"rtusched/rtusite"
 )
 
 var BuildVersion = "unmarked"
@@ -40,5 +41,15 @@ func main() {
 		log.Fatalf("can't init logger: %s", err)
 	}
 
-	logx.Warn("OK!")
+	// -------------------
+
+	logx.Info("Starting...")
+
+	meta, err := rtusite.ReadMeta(logx, conf.Site)
+	if err != nil {
+		logx.Fatalf("can't read meta: %s", err)
+	}
+	for _, m := range meta {
+		fmt.Println(m)
+	}
 }

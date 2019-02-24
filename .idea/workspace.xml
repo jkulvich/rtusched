@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08cbdeda-d1ab-4b36-8e04-7bff6f0680b9" name="Default Changelist" comment="" />
+    <list default="true" id="08cbdeda-d1ab-4b36-8e04-7bff6f0680b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtusite/meta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtusite/structures.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schedule/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtusched.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtusched.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/rtusched.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,26 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="677">
+              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
-                <element signature="e#14#51#0" expanded="true" />
+                <element signature="e#14#90#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="238">
-                <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -38,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/config/structures.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -46,11 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/generator.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="e#16#65#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +56,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtusched.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-end-line="5" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="589">
+                <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -74,6 +84,9 @@
     </option>
   </component>
   <component name="GOROOT" path="X:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,8 +98,15 @@
         <option value="$PROJECT_DIR$/config/reader.go" />
         <option value="$PROJECT_DIR$/rtusched_config.yaml" />
         <option value="$PROJECT_DIR$/config/generator.go" />
-        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/rtusched.yaml" />
+        <option value="$PROJECT_DIR$/parser/parser.go" />
+        <option value="$PROJECT_DIR$/schedule/parser.go" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/html.html" />
+        <option value="$PROJECT_DIR$/rtusite/structures.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/rtusite/meta.go" />
       </list>
     </option>
   </component>
@@ -96,6 +116,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,12 +132,7 @@
             <path>
               <item name="rtusched" type="b2602c69:ProjectViewProjectNode" />
               <item name="rtusched" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rtusched" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rtusched" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
+              <item name="rtusite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +164,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="go build rtusched" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="release" type="GoApplicationRunConfiguration" factoryName="Go Application" activateToolWindowBeforeRun="false">
       <module name="rtusched" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i -ldflags &quot;-X main.BuildVersion=0.1.0 -X main.BuildType=release&quot;" />
@@ -170,12 +186,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21599169" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -183,8 +200,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.18899272" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17133956" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.1734164" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17133956" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -199,51 +216,11 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go.mod">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/reader.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/structures.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml" />
     <entry file="file://$PROJECT_DIR$/logger/structures.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/generator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#16#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rtusched.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -261,23 +238,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#14#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/generator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/reader.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule/parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtusched.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://X:/Go/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://X:/Go/src/net/http/response.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://X:/GoProjects/pkg/mod/github.com/!puerkito!bio/goquery@v1.5.0/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <first_editor relative-caret-position="589">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#458#488#0#HTML" expanded="true" />
+            <element signature="e#559#610#0#HTML" expanded="true" />
+            <element signature="e#674#704#0#HTML" expanded="true" />
+            <element signature="e#1084#1135#0#HTML" expanded="true" />
+            <element signature="e#1199#1229#0#HTML" expanded="true" />
+            <element signature="e#5226#5275#0#HTML" expanded="true" />
+            <element signature="e#5419#5470#0#HTML" expanded="true" />
+            <element signature="e#5541#5571#0#HTML" expanded="true" />
+            <element signature="e#5641#5692#0#HTML" expanded="true" />
+            <element signature="e#5756#5786#0#HTML" expanded="true" />
+            <element signature="e#6166#6217#0#HTML" expanded="true" />
+            <element signature="e#6281#6311#0#HTML" expanded="true" />
+            <element signature="e#10075#10124#0#HTML" expanded="true" />
+            <element signature="e#10388#10418#0#HTML" expanded="true" />
+            <element signature="e#10495#10546#0#HTML" expanded="true" />
+            <element signature="e#10610#10640#0#HTML" expanded="true" />
+            <element signature="e#11020#11071#0#HTML" expanded="true" />
+            <element signature="e#11135#11165#0#HTML" expanded="true" />
+            <element signature="e#14783#14813#0#HTML" expanded="true" />
+            <element signature="e#14890#14941#0#HTML" expanded="true" />
+            <element signature="e#15005#15035#0#HTML" expanded="true" />
+            <element signature="e#15415#15466#0#HTML" expanded="true" />
+            <element signature="e#15530#15560#0#HTML" expanded="true" />
+            <element signature="e#18305#18335#0#HTML" expanded="true" />
+            <element signature="e#18405#18456#0#HTML" expanded="true" />
+            <element signature="e#18520#18550#0#HTML" expanded="true" />
+            <element signature="e#18930#18981#0#HTML" expanded="true" />
+            <element signature="e#19045#19075#0#HTML" expanded="true" />
+            <element signature="e#22936#22985#0#HTML" expanded="true" />
+            <element signature="e#23329#23359#0#HTML" expanded="true" />
+            <element signature="e#23436#23487#0#HTML" expanded="true" />
+            <element signature="e#23551#23581#0#HTML" expanded="true" />
+            <element signature="e#23961#24012#0#HTML" expanded="true" />
+            <element signature="e#24076#24106#0#HTML" expanded="true" />
+            <element signature="e#26861#26891#0#HTML" expanded="true" />
+            <element signature="e#27014#27065#0#HTML" expanded="true" />
+            <element signature="e#27129#27159#0#HTML" expanded="true" />
+            <element signature="e#27539#27590#0#HTML" expanded="true" />
+            <element signature="e#27654#27684#0#HTML" expanded="true" />
+            <element signature="e#32944#32974#0#HTML" expanded="true" />
+            <element signature="e#33044#33095#0#HTML" expanded="true" />
+            <element signature="e#33159#33189#0#HTML" expanded="true" />
+            <element signature="e#33569#33620#0#HTML" expanded="true" />
+            <element signature="e#33684#33714#0#HTML" expanded="true" />
+            <element signature="e#39930#39979#0#HTML" expanded="true" />
+            <element signature="e#40205#40254#0#HTML" expanded="true" />
+            <element signature="e#40594#40624#0#HTML" expanded="true" />
+            <element signature="e#40695#40746#0#HTML" expanded="true" />
+            <element signature="e#40810#40840#0#HTML" expanded="true" />
+            <element signature="e#41220#41271#0#HTML" expanded="true" />
+            <element signature="e#41335#41365#0#HTML" expanded="true" />
+            <element signature="e#44734#44783#0#HTML" expanded="true" />
+            <element signature="e#45007#45058#0#HTML" expanded="true" />
+            <element signature="e#45129#45159#0#HTML" expanded="true" />
+            <element signature="e#45236#45287#0#HTML" expanded="true" />
+            <element signature="e#45351#45381#0#HTML" expanded="true" />
+            <element signature="e#45761#45812#0#HTML" expanded="true" />
+            <element signature="e#45876#45906#0#HTML" expanded="true" />
+            <element signature="e#48360#48411#0#HTML" expanded="true" />
+            <element signature="e#48429#48459#0#HTML" expanded="true" />
+            <element signature="e#48495#48546#0#HTML" expanded="true" />
+            <element signature="e#48610#48640#0#HTML" expanded="true" />
+            <element signature="e#48952#49003#0#HTML" expanded="true" />
+            <element signature="e#49067#49097#0#HTML" expanded="true" />
+            <element signature="e#51256#51307#0#HTML" expanded="true" />
+            <element signature="e#51429#51459#0#HTML" expanded="true" />
+            <element signature="e#51507#51558#0#HTML" expanded="true" />
+            <element signature="e#51634#51664#0#HTML" expanded="true" />
+            <element signature="e#51986#52037#0#HTML" expanded="true" />
+            <element signature="e#52113#52143#0#HTML" expanded="true" />
+            <element signature="e#54080#54110#0#HTML" expanded="true" />
+            <element signature="e#54146#54197#0#HTML" expanded="true" />
+            <element signature="e#54261#54291#0#HTML" expanded="true" />
+            <element signature="e#54569#54620#0#HTML" expanded="true" />
+            <element signature="e#54684#54714#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://X:/GoProjects/pkg/mod/github.com/!puerkito!bio/goquery@v1.5.0/type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtusite/meta.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtusite/structures.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/structures.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#14#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

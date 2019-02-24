@@ -35,3 +35,6 @@ log:
 # Q&A
 > Скоро будет...
 
+echo 0.1.%date:~12,2%%date:~4,2%%date:~7,2%.0 // windows
+date +"0.1.%y%m%d.0" // linux
+

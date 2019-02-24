@@ -1,5 +1,5 @@
 site: https://www.mirea.ru/education/schedule-main/schedule/
 log:
-  level: warn
+  level: debug
   format: text
-  callerInfo: false
+  callerInfo: true
